@@ -1,0 +1,18 @@
+{
+  "name": "express-auth-api",
+  "version": "1.0.0",
+  "description": "An express auth api",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Carlos Teixeira",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc0"
+  }
+}
